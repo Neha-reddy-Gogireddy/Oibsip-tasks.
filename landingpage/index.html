@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="menu.css">
+  <title>Landing Page</title>
+</head>
+<body>
+ <nav>
+   <div class="logo">WEB BROWSER</div>
+   <!-- toggle menu button -->
+   <span class="menubtn" onclick="openNav()">&#9776;</span>
+ 
+   <div class="navLinks">
+     <ul>
+       <li><a href="#">Home</a></li>
+       <li><a href="#">About</a></li>
+       <li><a href="#">Services</a></li>
+       <li><a href="#">Contact</a></li>
+       <button type="button">Login</button>
+     </ul>
+   </div>
+ </nav>
+   <!-- Header content with banner image -->
+   <div class="row">
+     <div class="column1">
+       <h1>Web Developer</h1>
+       <p> I love web development and designing</p>
+       <button>PURCHASE</button>
+     </div>
+     <!--div class="column2"-->
+       <img src="C:\Users\nehar\OneDrive\Documents\backgroundimage.jpg" alt="banner" width="1250px">
+     <!--/div-->
+   </div>
+   
+   <!-- javascript to make side menu appear -->
+ <script>
+   function openNav() {
+     document.getElementById("sidenav").style.width = "50%";
+   }
+   function closeNav() {
+     document.getElementById("sidenav").style.width = "0%";
+   }
+ </script>
+ 
+</body>
+</html>
